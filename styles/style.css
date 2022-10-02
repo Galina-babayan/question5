@@ -1,0 +1,15 @@
+.block {
+  display: grid;
+  grid-template-columns: 20vw 15vw 20vw;
+  grid-template-rows: 100px;
+  background-color: rgb(244, 239, 238);
+  justify-content: space-between;
+  gap: 10px;
+  border: dashed gray;
+}
+
+.block_item {
+  background-color: rgb(236, 169, 53);
+  border: 2px solid black;
+  padding: 20px;
+}
